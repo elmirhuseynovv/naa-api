@@ -1,11 +1,23 @@
 {
-  "name": "naa-admin-api",
+  "name": "naa-api",
   "version": "1.0.0",
-  "type": "module",
-  "dependencies": {
-    "json-server": "^1.0.0"
-  },
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "json-server --watch db.json --host 0.0.0.0 --port$PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmirhuseynovv/naa-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elmirhuseynovv/naa-api/issues"
+  },
+  "homepage": "https://github.com/elmirhuseynovv/naa-api#readme",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
   }
 }
